@@ -6,6 +6,13 @@ npm create sanity@latest -- --dataset production --template clean --typescript -
 ```
 
 
+```shell
+❯ node --version
+v24.11.1
+❯ pnpm --version
+10.11.1
+```
+
 
 Repro commands:
 
