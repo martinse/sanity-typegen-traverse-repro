@@ -5,11 +5,11 @@ export default defineCliConfig({
     projectId: 'nkkx39jv',
     dataset: 'production'
   },
-  deployment: {
-    /**
-     * Enable auto-updates for studios.
-     * Learn more at https://www.sanity.io/docs/cli#auto-updates
-     */
-    autoUpdates: true,
+  typegen: {
+    path: './src/**/*.{ts,tsx,js,jsx}',
+    schema: './src/lib/sanity/schema.json',
+    generates: './src/lib/sanity/types.ts',
+    overloadClientMethods: false
   }
+
 })
