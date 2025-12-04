@@ -10,7 +10,7 @@ npm create sanity@latest -- --dataset production --template clean --typescript -
 ❯ node --version
 v24.11.1
 ❯ pnpm --version
-10.11.1
+10.24.0
 ```
 
 
